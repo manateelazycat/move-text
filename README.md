@@ -2,11 +2,11 @@
 Move current line or region.
 
 ## Installation
-Clone or download this repository (path of the folder is the `<path-to-color-rg>` used below).
+Clone or download this repository (path of the folder is the `<path-to-move-text>` used below).
 
 In your `~/.emacs`, add the following two lines:
 ```Elisp
-(add-to-list 'load-path "<path-to-color-rg>") ; add color-rg to your load-path
+(add-to-list 'load-path "<path-to-move-text>") ; add move-text to your load-path
 (require 'move-text)
 ```
 
