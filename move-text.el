@@ -2,9 +2,8 @@
 
 ;; Filename: move-text.el
 ;; Description: Move current line or region.
-;; Author: Jason M <jasonm23@gmail.com>
-;; Extracted from basic-toolkit.el by Andy Stewart.
-;; Copyright (C) 2009 ~ 2017, Andy Stewart, all rights reserved.
+;; Author: Andy Stewart <lazycat.manatee@gmail.com>
+;; Copyright (C) 2009 ~ 2019, Andy Stewart, all rights reserved.
 ;; Keywords: edit
 ;; Compatibility: GNU Emacs 23.0.60.1 ~ GNU Emacs 26.0.50.1
 ;; Version: 1.1
@@ -30,9 +29,8 @@
 
 ;;; Commentary:
 ;;
-;; MoveText is extracted from Basic edit toolkit.
-;; It allows you to move the current line using M-up / M-down
-;; if a region is marked, it will move the region instead.
+;; It allows you to move the current line.
+;; If a region is marked, it will move the region instead.
 ;;
 
 ;;; Installation:
@@ -45,7 +43,6 @@
 ;; And the following to your ~/.emacs startup file.
 ;;
 ;; (require 'move-text)
-;; (move-text-default-bindings)
 ;;
 
 ;;; Change log:
@@ -56,7 +53,6 @@
 
 ;;; Acknowledgements:
 ;;
-;;  Feature extracted from basid-edit-toolkit.el - by Andy Stewart. (LazyCat)
 ;;
 
 ;;; Code:
